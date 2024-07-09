@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Borders</string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="pick_from_gallery">Pick from gallery</string>
+    <string name="pick_image">Pick image...</string>
+    <string name="saving_image">Saving image...</string>
+    <string name="the_app_needs_permissions_to_work_properly">The app needs your permissions to work properly</string>
+    <string name="share">Share</string>
+    <string name="download">Download</string>
+    <string name="cannot_export_file">Cannot export file!</string>
+    <string name="about">About</string>
+    <string name="developer">Developer</string>
+    <string name="designer">Designer</string>
+    <string name="share_using">Share using...</string>
+
+    <string name="transition_image" translatable="false">Transition</string>
+    <string name="matteo_lobello" translatable="false">Matteo Lobello</string>
+    <string name="gianluca_astorino" translatable="false">Gianluca Astorino</string>
+    <string name="sixteen_to_nine" translatable="false">16:9</string>
+    <string name="one_to_one" translatable="false">1:1</string>
+    <string name="nine_to_sixteen" translatable="false">9:16</string>
+    <string name="image_saved">Image saved</string>
+</resources>

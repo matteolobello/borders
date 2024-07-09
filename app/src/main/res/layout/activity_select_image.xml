@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/aboutTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="10dp"
+        android:text="@string/about"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:fontFamily="@font/roboto_medium" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/squareLogoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:fontFamily="@font/roboto_medium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/squareLogoImageView"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/takePhotoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:padding="16dp"
+                android:text="@string/take_a_photo"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/pickFromGalleryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:padding="16dp"
+                android:text="@string/pick_from_gallery"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:fontFamily="@font/roboto_medium" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

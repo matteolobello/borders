@@ -1,0 +1,39 @@
+apply plugin: "com.android.application"
+apply plugin: "kotlin-android"
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.matteolobello.borders"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 4
+        versionName "1.0.3"
+        multiDexEnabled false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+    namespace 'com.matteolobello.borders'
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "androidx.recyclerview:recyclerview:1.3.2"
+    implementation "androidx.palette:palette-ktx:1.0.0"
+    implementation "com.mikhaellopez:circularimageview:3.0.2"
+    implementation "com.github.fondesa:kpermissions:3.4.0"
+    implementation "com.jaredrummler:colorpicker:1.0.2"
+}

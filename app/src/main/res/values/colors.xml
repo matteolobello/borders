@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="launchScreenBackground">#000000</color>
+    <color name="bg_1">#B30C00</color>
+    <color name="bg_2">#E65C00</color>
+    <color name="bg_3">#CCCC00</color>
+    <color name="bg_4">#009900</color>
+    <color name="bg_5">#0000CC</color>
+    <color name="bg_6">#AC00E6</color>
+    <color name="border_1">#FFFFFF</color>
+    <color name="border_2">#000000</color>
+    <color name="border_3">#FE3403</color>
+    <color name="border_4">#F25925</color>
+    <color name="border_5">#FFDE13</color>
+    <color name="border_6">#70C050</color>
+    <color name="border_7">#25814A</color>
+    <color name="border_8">#58D1FF</color>
+    <color name="border_9">#1E00FE</color>
+    <color name="border_10">#BA0796</color>
+    <color name="border_11">#FF8F7B</color>
+    <color name="border_12">#CF9C65</color>
+    <color name="border_13">#BEB5B5</color>
+    <color name="border_14">#797E81</color>
+    <color name="border_15">#3D3A3A</color>
+    <color name="border_custom">#123456</color>
+</resources>
